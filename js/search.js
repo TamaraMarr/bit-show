@@ -39,7 +39,7 @@ function searchShows() {
 			let showIMG;
 
 			if (gotResult[i].show.image === null) {
-				showIMG = "http://via.placeholder.com/350x500?text=No+Image+Available";
+				showIMG = "https://via.placeholder.com/350x500?text=No+Image+Available";
 			} else {
 				showIMG = gotResult[i].show.image.original;
 			}

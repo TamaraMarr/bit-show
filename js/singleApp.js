@@ -4,7 +4,7 @@ const getSingleShow = (() => {
     let showID = localStorage.getItem("data-show-id");
 
     request = $.ajax({
-    url: 'http://api.tvmaze.com/shows/' + showID,
+    url: 'https://api.tvmaze.com/shows/' + showID,
     data: {
         embed: ['seasons', 'cast']
     }
