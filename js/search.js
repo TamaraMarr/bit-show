@@ -13,7 +13,7 @@ function searchShows() {
 	let enteredText = $(".searchLine").val();
 
 	var request = $.ajax({
-		url: "http://api.tvmaze.com/search/shows?q=" + enteredText
+		url: "https://api.tvmaze.com/search/shows?q=" + enteredText
 	});
 
 	request.done(function(gotResult) {
@@ -63,7 +63,7 @@ $(".searchLine").keyup(function() {
 	const enteredText = $(".searchLine").val();
 
 	var request = $.ajax({
-		url: "http://api.tvmaze.com/search/shows?q=" + enteredText
+		url: "https://api.tvmaze.com/search/shows?q=" + enteredText
 	});
 
 	request.done(function(gotResult) {

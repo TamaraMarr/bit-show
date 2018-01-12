@@ -18,7 +18,7 @@ request.done(function (singleShow) {
 
     // pic
     if (singleShow.image === null) {
-        showPic = 'http://via.placeholder.com/350x500?text=No+Image+Available';
+        showPic = 'https://via.placeholder.com/350x500?text=No+Image+Available';
     } else {
         showPic = singleShow.image.original;
     }
